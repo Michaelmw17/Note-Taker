@@ -1,6 +1,8 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
+//Logger allows dev to see traffic coming and going. 
+const logger = require("morgan");
 
 const app = express();
 const PORT = process.env.PORT || 4002;
@@ -8,6 +10,7 @@ const PORT = process.env.PORT || 4002;
 app.use(express.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.use(express.json());
+app.use(logger("dev"));
 
 app.get("/index", (req, res) => {
     res.sendFile(path.join(__dirname, "/public/index.html"));
