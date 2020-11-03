@@ -1,7 +1,6 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-//Logger allows dev to see traffic coming and going. 
 const logger = require("morgan");
 
 const app = express();
