@@ -3,5 +3,10 @@
     "title": "Add a new note!",
     "text": "",
     "id": 0
+  },
+  {
+    "title": "hi",
+    "text": "hey",
+    "id": 1
   }
 ]
