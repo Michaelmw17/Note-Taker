@@ -3,7 +3,6 @@ const $noteText = $(".note-textarea");
 const $saveNoteBtn = $(".save-note");
 const $newNoteBtn = $(".new-note");
 const $noteList = $(".list-container .list-group");
-
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
@@ -80,13 +79,13 @@ const handleNoteDelete = function (event) {
 };
 
 // Sets the activeNote and displays it
-const handleNoteView =  () => {
+const handleNoteView = function () {
   activeNote = $(this).data();
   renderActiveNote();
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
-const handleNewNoteView =  () => {
+const handleNewNoteView = function () {
   activeNote = {};
   renderActiveNote();
 };

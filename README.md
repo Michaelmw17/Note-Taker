@@ -32,7 +32,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ![Note Taker](./public/assets/img/note-taker-gif.gif) 
 
-Or the full video is [here](./public/assets/img/Screen-Recording.mov)
+Or the full video is [here](./public/assets/img/Screen-Recording-2020.mov)
 
 ## Business Context
 
