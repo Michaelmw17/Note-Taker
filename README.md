@@ -25,6 +25,8 @@ Create an application that can be used to write, save, and delete notes. This ap
 
   * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
+![Note Taker](./public/assets/img/note-taker-gif.gif) 
+
 ## User Story
 
 AS A user, I want to be able to write and save notes
@@ -32,8 +34,6 @@ AS A user, I want to be able to write and save notes
 I WANT to be able to delete notes I've written before
 
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
-
-![Note Taker](./public/assets/img/note-taker-gif.gif) 
 
 Or the full video is [here](./public/assets/img/Screen-Recording-2020.mov)
 
@@ -51,10 +51,18 @@ Application should allow users to delete previously saved notes.
 
 ## Deploying the App
 
-You will not be able to deploy your server side code on GitHub pages. This app should be deployed on Heroku.  [Heroku App](https://note-taker-unit-11.herokuapp.com/) 
+[Heroku App](https://note-taker-unit-11.herokuapp.com/) 
 
 ## Resources
 
 * [Express.js](https://expressjs.com/)
 
 * [Postman](https://www.getpostman.com/)
+
+## Questions
+_Michael Watt_
+
+- [Github!](https://github.com/Michaelmw17)
+- [LinkedIn!](https://www.linkedin.com/in/michael-watt-6a76961b3/)
+- [Portfolio!](http://michaelmw17.github.io/)
+- Email:(michaelmw17@outlook.com)
