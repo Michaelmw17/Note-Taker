@@ -1,7 +1,9 @@
 # Unit 11 Express Homework: Note Taker
 
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)<br />
+### Licence
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Description
 
@@ -41,13 +43,6 @@ Or the full video is [here](./public/assets/img/Screen-Recording-2020.mov)
 
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
-## Acceptance Criteria
-
-Application should allow users to create and save notes.
-
-Application should allow users to view previously saved notes.
-
-Application should allow users to delete previously saved notes.
 
 ## Deploying the App
 
